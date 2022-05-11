@@ -81,11 +81,11 @@ img {
   display: flex;
   align-items: center;
   gap: 86px;
+
   position: relative;
 
   /* color: #fff; */
-  padding: 32px;
-  padding-left: 86px;
+  padding: 32px 48px 32px 86px;
 }
 .testimonial {
 }
@@ -112,8 +112,46 @@ img {
   height: 40px;
   width: 40px;
   position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0.25);
+  cursor: pointer;
+  justify-content: center;
 }
 .btn-icon {
   height: 24px;
   width: 24px;
+  stroke: #087f5b;
+}
+
+.btn--left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(50%, 32px);
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+}
+
+.dot-1 {
+  background-color: #087f5b;
 }
