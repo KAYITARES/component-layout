@@ -8,6 +8,19 @@ body {
   color: #343a40;
   line-height: 1;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav a:link,
+a:visited {
+  text-decoration: none;
+  padding: 16px 32px;
+  display: inline-block;
+  cursor: pointer;
+  /* background: red; */
+  color: #087f5b;
+}
 .accordion {
   width: 700px;
   margin: 100px auto;
